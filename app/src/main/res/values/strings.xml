@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">iCook App</string>
+    <string name="splashscreen_text">iCook</string>
+    <string name="splashscreen_version">Version 1.0.1</string>
+    <string name="splashscreen_est">EST. 2022</string>
+    <string name="login_app">iCook</string>
+    <string name="name_form">Nome</string>
+    <string name="email_form">E-mail</string>
+    <string name="password_form">Senha</string>
+</resources>
