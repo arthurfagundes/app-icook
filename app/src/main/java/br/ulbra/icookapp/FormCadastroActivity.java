@@ -44,10 +44,10 @@ import java.util.UUID;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class FormCadastroActivity extends AppCompatActivity {
-    CircleImageView fotoUsuario;
-    Button btSelecionarFoto, btCadastrar;
-    EditText edtNome, edtEmail, edtSenha;
-    TextView txt_mensagemErro;
+    private CircleImageView fotoUsuario;
+    private Button btSelecionarFoto, btCadastrar;
+    private EditText edtNome, edtEmail, edtSenha;
+    private TextView txt_mensagemErro;
 
     private String usuarioID;
     private Uri mSelecionarUri;
@@ -83,7 +83,7 @@ public class FormCadastroActivity extends AppCompatActivity {
         String email = edtEmail.getText().toString();
         String senha = edtSenha.getText().toString();
 
-        FirebaseApp.initializeApp(this);
+
         FirebaseAuth.getInstance().createUserWithEmailAndPassword(email,senha).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -200,9 +200,9 @@ public class FormCadastroActivity extends AppCompatActivity {
     public void IniciarComponentes(){
         fotoUsuario = findViewById(R.id.fotoUsuario);
         btSelecionarFoto = findViewById(R.id.bt_selecionarFoto);
-        edtNome = findViewById(R.id.txt_nome);
-        edtEmail = findViewById(R.id.txt_email_form);
-        edtSenha = findViewById(R.id.txt_senha_form);
+        edtNome = findViewById(R.id.edtNome);
+        edtEmail = findViewById(R.id.edtEmailForm);
+        edtSenha = findViewById(R.id.edtSenhaForm);
         txt_mensagemErro = findViewById(R.id.txt_mensagemErro);
         btCadastrar = findViewById(R.id.bt_Cadastrar);
     }
