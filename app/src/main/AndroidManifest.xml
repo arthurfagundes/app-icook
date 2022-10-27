@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.ulbra.icookapp">
 
     <application
         android:allowBackup="true"
@@ -20,13 +21,19 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".FormCadastroActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".FormCadastroActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".ListaProdutosActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>

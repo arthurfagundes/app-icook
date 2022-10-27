@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "761881697476",
-    "project_id": "appicook-74b17",
-    "storage_bucket": "appicook-74b17.appspot.com"
+    "project_number": "307047501079",
+    "project_id": "icook-app-29a5b",
+    "storage_bucket": "icook-app-29a5b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:761881697476:android:03ca372867538067ea3d91",
+        "mobilesdk_app_id": "1:307047501079:android:4d7ebbefd3088cc8c9bb52",
         "android_client_info": {
-          "package_name": "br.ulbra.appicook"
+          "package_name": "br.ulbra.icookapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "761881697476-rgnl22gi4rtkmr3et4lqtht0p33rdhno.apps.googleusercontent.com",
+          "client_id": "307047501079-8b82v58o9375gk7aq934p0emfobc7sn4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCYbBjX2EbI_2xto8jWNIJV9lrCYxQjZs0"
+          "current_key": "AIzaSyDathJAm7LDV1oVD8RwL1H1Kj_0pezrUj0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "761881697476-rgnl22gi4rtkmr3et4lqtht0p33rdhno.apps.googleusercontent.com",
+              "client_id": "307047501079-8b82v58o9375gk7aq934p0emfobc7sn4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
